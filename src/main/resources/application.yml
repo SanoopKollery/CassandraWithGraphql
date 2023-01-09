@@ -1,0 +1,7 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: graphql
+      keyspace-name: graphql
+      entity-base-package: com.example.cassandra.springbootcassandrademo.model
